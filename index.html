@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EgyPay</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/slider.css">
+    <link rel="stylesheet" href="CSS/Team.css">
+    <link rel="icon" href="img/mainLogo.png"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,1,200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body id="body">
+
+    <!-- start nav bar -->
+    <header>
+
+        <a href="index.html" class="logo"><img class="img" src="./img/Logo_02.png" alt="#"></a>
+        <ul class="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="Market.html"> Market</a></li>
+            <li><a href="#categories"> Categories</a></li>
+            <li><a href="About.html#Contact"> Contact</a></li>
+            <li><a href="About.html">About us</a></li>
+
+        </ul>
+        <ul Class="Cont">
+            <li>
+                <label for="DarkMode">DarkMode</label>
+            </li>
+            <li class="Darkmode">
+                <a href="#" id="DarkMode" onclick="DarkLightMode()">
+                    <span id="circuilmode" class="circuilDark"></span>
+                </a>
+            </li>
+        </ul>
+        <div class="main">
+            <a href="login/index.html" class="user" target="_blank"><i class="fa-solid fa-user"></i><span
+                    onclick="show_pup()">Sign In</span></a>
+            <a href="login/index.html" target="_blank">Register</a>
+            <div class="fa-solid fa-bars" id="menu-icon"></div>
+        </div>
+
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="img/thought-catalog-505eectW54k-unsplash.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/Slider02.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/spotify-logo-1920x1080.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/clean_Code.png" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+
+
+        </div>
+    </div>
+    <main class="Main" id="categories">
+        <p class="title"> اقسام الموقع</p>
+
+        <section class="sec1">
+
+            <div class="container1" id="container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+
+                <div class="imageCard"> <img src="img/AdobeStock_556301713_Preview.jpeg" alt=""></div>
+                <div>
+                    <p class="labelContaner"> Games</p>
+                </div>
+                <div class="item">
+                    <p class="p1">
+                        هذه الصفحة تقدم ألعاب متنوعة تضم العديد من الألعاب مثل الألعاب الإلكترونية والفيديو والألعاب التفاعلية عبر الإنترنت ورياضات إلكترونية.                    
+                    </p>
+                    <p class="p1">
+                        يوفر المحتوى مراجعات وأخبار حول الألعاب الجديدة والمستقبلية، مقاطع فيديو توضيحية، ومجتمع للمشاركة والتفاعل بين اللاعبين. تستهدف هذه الصفحة فئات مختلفة من اللاعبين وتقدم تجربة شاملة وتفاعلية تلبي احتياجات واهتمامات محبي الألعاب.
+
+                    </p>
+                </div>
+                <div class="det">
+                    <p><a href="Market.html#games">التفاصيل</a><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+
+            </div>
+            <div class="container1" id="container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+
+                <div class="imageCard"><img src="img/331201-PAOPP5-450.jpg" alt=""></div>
+
+                <div>
+                    <p class="labelContaner">
+                        Apps
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p class="p1">
+                        مكتبة متنوعة من التطبيقات الرقمية. أدوات اجتماعية، وأدوات يومية تسهِّل الحياة. تُقدم "Apps" تجربة فريدة تلبي مختلف الاحتياجات وتمنح المستخدمين فرصة استكشاف واكتشاف الإبداع والتواصل في عالم التكنولوجيا والويب.    
+                    </p>
+                    <p class="p1">
+                        هذه التطبيقات تفتح الباب أمام عالم من التنوع والإمكانيات اللامحدودة لتحقيق الاستمتاع والفائدة على مدار الوقت.
+                    </p>
+                </div>
+                <div class="det">
+                    <p><a href="Courses.html #Courses">التفاصيل</a><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+
+            </div>
+            <div class="container1" id="container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+                <div class="imageCard"><img src="img/Books.png" alt=""></div>
+
+                <div>
+                    <p class="labelContaner">
+                        Books
+                    </p>
+                </div>
+                <div class="item">
+                    <p class="p1">
+                        الكتب تمثل عالماً من المعرفة والترفيه، فهي ليست مجرد صفحات ورقية بل بوابة لعوالم مختلفة. تقدم الكتب تنوعاً هائلاً من المواضيع والأساليب، من الروايات الشيقة إلى الكتب التعليمية والكتب السيرية والعلمية.
+                    </p>
+                    <p class="p1">
+                        بفضل قوة الكلمات، تأخذ القارئ في رحلة لا محدودة، تعلمه وتثري ثقافته وتوسع آفاقه. الكتب تمثل مورداً لا ينضب للاستفادة والتسلية والتنمية الشخصية، تتيح للأفراد استكشاف العوالم المختلفة وتجارب الآخرين وتحقيق التواصل بين الأجيال.
+                    </p>
+                </div>
+                <div class="det">
+                    <p><a href="Market.html#Books">التفاصيل</a><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+
+
+            </div>
+
+            <div class="container1" id="container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+                <div class="imageCard"><img src="img/AdobeStock_556300316_Preview.jpeg" alt=""></div>
+
+                <div>
+                    <p class="labelContaner">
+                        Movies
+                    </p>
+                </div>
+                <div class="item">
+                    <p class="p1">
+                        الأفلام هي لغة فنية تروي القصص وتعبر عن المشاعر والأفكار بطرق متعددة ومثيرة. تقدم الأفلام تجربة ترفيهية ممتعة وتثقيفية في آنٍ واحد، حيث تأخذنا في رحلة إلى عوالم مختلفة وتعرض لنا وجوهاً متنوعة من الحياة. 
+                    </p>
+                    <p class="p1">
+                        تنقل الأفلام القصص والمفاهيم بصورة بصرية تترك أثراً عميقاً في ذاكرة المشاهد وتفتح آفاقاً جديدة للتفكير والاستنتاج. من خلال مختلف الأنواع مثل الدراما والكوميديا والخيال العلمي والوثائقي، تعتبر الأفلام وسيلة للترفيه والتعبير والتواصل الثقافي بين الثقافات المختلفة في جميع أنحاء العالم.
+                    </p>
+                    
+                </div>
+                <div class="det">
+                    <p><a href="Courses.html #Courses">التفاصيل</a><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+
+
+            </div>
+            <div class="container1" id="container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+                <div class="imageCard"><img src="img/mailchimp-0qnRfgnZIsI-unsplash.jpg" alt=""></div>
+
+                <div>
+                    <p class="labelContaner">
+                        Products    
+                    </p>
+                </div>
+                <div class="item">
+                    <p class="p1">
+                        الأجهزة الكهربائية، أجهزة الكمبيوتر، والمستلزمات الشخصية هي جزء أساسي من حياتنا. الأجهزة تسهل الأعمال المنزلية، بينما أجهزة الكمبيوتر تستخدم في العمل والتعلم والترفيه.
+                    </p>
+                    <p class="p1">
+                        المستلزمات الشخصية مثل الهواتف والساعات الذكية تسهل التواصل وتوفر وسائل مهمة للحياة اليومية. هذه المنتجات تلبي احتياجاتنا الشخصية والمهنية بتقنيات متطورة ووظائف متنوعة.
+                    </p>
+                </div>
+                <div class="det">
+                    <p><a href="Market.html#Products">التفاصيل</a><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+
+
+            </div>
+            <div class="container1" id="container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+                <div class="imageCard"><img src="img/AdobeStock_556302029_Preview.jpeg" alt=""></div>
+
+                <div>
+                    <p class="labelContaner">
+                        Courses
+                    </p>
+                </div>
+                <div class="item">
+                    <p class="p1">
+                        الكورسات في مجال البرمجة تمثل مورداً قيماً لتعلم الأساسيات وتطوير المهارات. تقدم مجموعة واسعة من المواضيع تشمل لغات البرمجة المختلفة وتطبيقاتها العملية.
+                    </p>
+                    <p class="p1">
+                        هذه الكورسات تمكن المتعلمين من فهم المفاهيم البرمجية، بناء تطبيقات، وتطوير حلول تقنية، مما يساهم في تطوير مهاراتهم وتحسين فرصهم الوظيفية في عالم التكنولوجيا وتطوير البرمجيات.
+                    </p>
+                </div>
+                <div class="det">
+                    <p><a href="Market.html#courses">التفاصيل</a><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+            <div class="container">
+                <img src="img/1905.i126.005_programmer work.jpg" alt="">
+
+                <div class="title3">
+                    <h2 class="title3-main">خدماتنا</h2>
+                    <p class="p-title">دورات تدريبية فى مجال البرمجة</p>
+                    <p class="p1">نقدم لكم دورات تدريبية لتعلم البرمجة من الصفر من خلال مسارات محددة مرتبة حسب المستوى وذلك من خلال
+                        دروس تفاعلية وشروحات
+                        بالفيديو ولقطات شاشة فى مجال البرمجيات على اعلى مستوى تؤهلك مباشرة للعمل فى الشركات الكبرى وأيضا
+                        مشاريع الفريلانس كما
+                        يتم متابعتك فى الدورات سواء من الرد على استفساراتكم او متابعةالتاسكات الخاصة بكم او تصحيح
+                        الاخطاء او
+                        المناقشات لايف على
+                        زوم او العمل معنا فى مشاريعنا الخاصة ونركز فى هذه الفترة على مجالات مواقع الويب و تطبيقات
+                        الموبايل و
+                        تطبيقات سطح المكتب
+                        والبرامج الادارية التى تدير المؤسسات مثل برامج المبيعات او ادارة المؤسسات</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="sec2 " data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+            <div class="container-sec2">
+                <img src="img/programming-background-collage.jpg" alt="">
+
+                <div class="title2">
+                    <p class="p-title2">انشاء المواقع</p>
+                    <p class="p1">
+                        تساعد مواقع الانترنت على تنمية أعمالك، وتزيد من رضاء عملائك، وتمثل رسالة تسويق قوية سواءً كان
+                        عملك جديداً في السوق أو
+                        عريقاً، نتيح لك انشاء موقعك الخاص بك لادارة مؤسستك او عملك مهما كان عملك كبير او صغير يمكننا
+                        ادارته عن طريق عمل موقع
+                        الكترونى خاص لشركتكم ونوفر لكم لوحة تحكم بالموقع او بادارة المؤسسة بالكامل وتتميز لوحة التحكم
+                        بتعدد تصميماتها لتناسب
+                        جميع أذواق عملائنا ويمكنهم الاختيار بين اكثر من تصميم بها كما نتيح التحكم فى المستخدمين للسماح
+                        بمن له احقية الوصول فى
+                        بعض المحتويات الخاصة مثل المدراء كما يتميز موقع الويب الخاص بك بأنه يعمل بكفائه عالية على جميع
+                        الشاشات سواء شاشات موبايل
+                        او تابلت او ديسك توب
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+        <div class="container-footer">
+            <div class="row" style="text-align: right;">
+                <div class="row1">
+                    <h4>الكورسات</h4>
+                    <ul>
+                        <li><i class='bx bx-chevrons-left'></i>"Front-End"
+                            اساسيات تصميم المواقع</li>
+                        <li><i class='bx bx-chevrons-left'></i>
+                            برمجة تطبيقات الموبايل
+
+                        </li>
+                        <li><i class='bx bx-chevrons-left'></i>
+                            برمجة تطبيقات الواجهات وقواعد البيانات</li>
+                        <li><i class='bx bx-chevrons-left'></i>
+                            برمجة متنوعة</li>
+                        <li><i class='bx bx-chevrons-left'></i>
+                            تعلم أساسيات البرمجة</li>
+                        <li> <i class='bx bx-chevrons-left'></i>
+                            "Back-End"
+                            برمجة تطبيقات ومواقع الانترنت</li>
+                    </ul>
+                </div>
+                <div class="row2">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li><i class='bx bx-phone'></i>
+                            <p> تليفون</p> <span>015********:</span>
+                        </li>
+                        <li><i class='bx bx-phone'></i>
+                            <p>تليفون</p> <span>010*********:</span>
+                        </li>
+                        <li><i class='bx bx-envelope'></i>
+                            <p class="ema">البريد الالكتروني</p>
+                        </li>
+                        <li><i class="fa-solid fa-copyright"></i>
+                            <p> <span style="margin-right: 5px;">All CopyRight Saved by Elsharkawy</span> </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row3">
+                    <h4>الدعم</h4>
+                    <ul>
+                        <li><i class='bx bx-chevrons-left'></i>Vodafone Cash</li>
+                        <li><i class='bx bx-chevrons-left'></i>Paypal</li>
+                        <li><i class='bx bx-chevrons-left'></i>Patreon</li>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                                <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="#"><i class="bx bxl-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    </main>
+    <!-- end nav bar -->
+    <!-- js lint -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

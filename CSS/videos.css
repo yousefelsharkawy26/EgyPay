@@ -1,0 +1,122 @@
+main {
+    margin: 35px;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.courses .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+main h2 {
+    color: rgb(0, 78, 120);
+    border-bottom: groove 10px;
+    border-radius: 20px;
+    background-color: rgb(174, 174, 174);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 25%;
+    left: 37%;
+}
+
+.cards div {
+    width: 308px;
+    height: 390px;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 7px 6px 6px gray;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards div:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+    box-shadow: 0 10px 50px 0px #2ecc71 !important;
+}
+
+.cards button {
+    display: inline-block;
+    background-color: rgba(220, 20, 60, 0.822);
+    color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px crimson;
+}
+
+.cards img {
+    width: 270px;
+    max-height: 270px;
+    margin-top: 7px;
+    border-radius: 30px;
+}
+
+.container-videos {
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.658);
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 1em;
+    display: none;
+    width: 600px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out all;
+    opacity: 0;
+    z-index: 10;
+}
+
+.container-videos.Open {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 1;
+    top: 50vh;
+    left: 50%;
+    transition: all 0.5s ease;
+}
+
+video {
+    position: relative;
+    width: 600px;
+    border-radius: 10px 10px 10px 10px;
+    right: 16px;
+}
+
+.btn-close {
+    position: relative;
+    left: 35%;
+    width: 170px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+
+.btn-close::after {
+    display: none;
+}

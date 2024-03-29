@@ -1,0 +1,108 @@
+@media(max-width: 1000px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .slider {
+        width: 100%;
+        position: absolute;
+
+    }
+
+    .slide img {
+        width: 100%;
+    }
+
+    .sec1 {
+        padding: 30px 0 !important;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+        transition-property: opacity, transform;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin: 72px auto;
+        left: 92px;
+    }
+
+    p.title {
+        position: relative;
+        color: #008eff;
+        text-align: center;
+        left: 4%;
+        font-size: 40px;
+        font-weight: bolder;
+        height: fit-content;
+        width: fit-content;
+        margin: -13px;
+        top: 43px;
+    }
+
+    .container-team {
+        margin-inline: auto;
+        position: relative;
+        top: 168rem;
+        margin-bottom: 8px;
+    }
+
+    .sec2 img {
+        position: absolute;
+        border-radius: 10px;
+        width: 23rem;
+        top: 9rem;
+        left: 110px;
+    }
+
+    .sec3 img {
+        position: absolute;
+        border-radius: 10px;
+        width: 22rem;
+        right: -17px;
+        top: 36%;
+    }
+
+    .sec3 .title3 .p-title {
+        font-weight: bold !important;
+        width: fit-content;
+        position: absolute;
+        left: 29rem;
+        top: 9rem;
+        color: #008eff !important;
+        font-size: 29px;
+        text-align: right;
+    }
+
+    .sec3 .title3 p {
+        color: #555 !important;
+        font-weight: bold !important;
+        width: 43rem;
+        position: absolute;
+        top: 13rem;
+        left: 151px;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .footer {
+        display: block;
+        position: relative;
+        width: 108%;
+        bottom: -83rem;
+        height: 25rem;
+        background: #0d2735;
+        border-top: 1px solid #17455e;
+        border-bottom: 1px solid #123649;
+        right: 0px;
+        top: 143rem;
+    }
+}
